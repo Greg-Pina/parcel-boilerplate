@@ -12,7 +12,7 @@ const User = async () => {
                 <ul>
                     <li>${user.email}</li>
                     <li>${user.phone}</li>
-                    <li>${user.location.country} + ', ' + ${user.location.city}</li>
+                    <li>${user.location.country}, ${user.location.city}</li>
                 </ul>
             </div>
         </div>

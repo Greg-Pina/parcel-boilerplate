@@ -4074,7 +4074,7 @@ var User = /*#__PURE__*/function () {
           case 2:
             res = _context.sent;
             user = res.data.results[0];
-            template = "\n        <div className=\"card\">\n            <img src=\"".concat(user.picture.large, "\"/>\n            <div class=\"card-body\">\n                <h1>").concat(user.name.first, " ").concat(user.name.last, "</h1>\n                <ul>\n                    <li>").concat(user.email, "</li>\n                    <li>").concat(user.phone, "</li>\n                    <li>").concat(user.location.country, " + ', ' + ").concat(user.location.city, "</li>\n                </ul>\n            </div>\n        </div>\n    ");
+            template = "\n        <div className=\"card\">\n            <img src=\"".concat(user.picture.large, "\"/>\n            <div class=\"card-body\">\n                <h1>").concat(user.name.first, " ").concat(user.name.last, "</h1>\n                <ul>\n                    <li>").concat(user.email, "</li>\n                    <li>").concat(user.phone, "</li>\n                    <li>").concat(user.location.country, ", ").concat(user.location.city, "</li>\n                </ul>\n            </div>\n        </div>\n    ");
             return _context.abrupt("return", template);
 
           case 6:
